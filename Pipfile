@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyside6 = "*"
+selenium = "*"
+beautifulsoup4 = "*"
+openpyxl = "*"
+webdriver-manager = "*"
+requests = "*"
+pandas = "*"
+xlrd = "*"
+xlwt = "*"
+
+[dev-packages]
+flake8 = "*"
+autopep8 = "*"
+pyinstaller = "*"
+
+[requires]
+python_version = "3.7"
